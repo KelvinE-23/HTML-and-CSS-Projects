@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <!-- Simple top nav -->
+  <header class="header">
+    <a href="#home"><h1 class="logo">Kelvin's Portfolio</h1></a>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#github">GitHub</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="section">
+    <div class="card">
+      <img class="profile-pic" src="C:\Users\User\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio_Website\portfolioimage.jpg" alt="A photo of me" />
+
+      <h2>Hi, I’m Kelvin 👋</h2>
+      <p>
+        I’m learning web & software development by building projects step-by-step.
+        I like creating simple, clean websites and improving every week.
+      </p>
+
+      <a class="button" href="https://github.com/KelvinE-23/HTML-and-CSS-Projects">See my GitHub</a>
+    </div>
+  </section>
+
+  <!-- INSTRUCTORS -->
+  <section id="instructors" class="section instructors-section">
+    <div class="instructors-inner">
+      <h2>My Instructors:</h2>
+      <div class="instructors-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="C:\Users\User\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio_Website\aolcc_ab_logo.jpg" alt="Instructor 1" />
+            </div>
+            <div class="flip-card-back">
+              <p>Instructor 1 — HTML &amp; CSS mentor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="C:\Users\User\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio_Website\prosper_it_academy_logo.jpg" alt="Instructor 2" />
+            </div>
+            <div class="flip-card-back">
+              <p>Instructor 2 — JavaScript instructor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="C:\Users\User\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Portfolio_Website\ztm_academy_logo.jpg" alt="Instructor 3" />
+            </div>
+            <div class="flip-card-back">
+              <p>Instructor 3 — Accessibility &amp; UX</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I’m a software developer working through an intensive training course. My current focus is
+        full-stack development and I’m currently practicing layouts, typography, and responsive design.
+      </p>
+
+      <h3>Skills I’m practicing</h3>
+      <ul>
+        <li>HTML structure (sections, lists, links)</li>
+        <li>CSS styling (colors, spacing, fonts)</li>
+        <li>Hover effects and simple layouts</li>
+        <li>Bootstrap</li>
+        <li>Javascript</li>
+        <li>C#</li>
+        <li>SQL & database basics</li>
+      </ul>
+
+      <h3>Project Preview</h3>
+      <p>Here are a couple images from my early projects:</p>
+
+      <div class="gallery">
+        <img src="mdv1.jpg" alt="Screenshot of project 1" />
+        <img src="legendsofbasketball.png" alt="Screenshot of project 2" />
+        <img src="bootstrap1.png" alt="Screenshot of project 3" />
+        <img src="bootstrap2.png" alt="Screenshot of project 3" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="card">
+      <h2>Get in Touch</h2>
+      <p>I'm Always Looking For New Opportunities. If You Have a question or want to collab send me a message!</p>
+      
+      <form class="contact-form" action="https://formspree.io/f/mgolweao" method="POST">
+        <label for="email">
+          Your email:
+          <input type="email" id="email" name="email" required>
+        </label>
+        <label for="message">
+          Your message:
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </label>
+        <button class="button" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- GITHUB -->
+  <section id="github" class="section">
+    <div class="card">
+      <h2>My GitHub</h2>
+      <p>
+        This is where I upload my projects and track my progress.
+        Check it out below:
+      </p>
+
+      <a class="github-link" href="https://github.com/KelvinE-23/HTML-and-CSS-Projects" target="_blank">
+        github.com/KelvinE-23
+      </a>
+
+    
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h5>Let's Connect:</h5>
+    <div class="footer-links">
+      <a href="mailto:Kelvinesssilfie23@gmail.com">Kelvinesssilfie23@gmail.com</a>
+      <span class="divider">|</span>
+      <a href="https://www.linkedin.com/in/kelvinkessilfie/" target="_blank">Kelvin K. Essilfie</a>
+      <span class="divider">|</span>
+      <p>Kelvin's Project 2026 &copy;</p>
+    </div>
+  </footer>
+
+</body>
+</html>
